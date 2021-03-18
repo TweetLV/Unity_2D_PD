@@ -2,7 +2,7 @@
 Pirmais Unity 2D projekts, pagūsim UI elementus.
 ### Veicamo darbu saraksts
 - [x] Nodrošināt projekta versionēšanu
-- [ ] Ievietot teksta logu, teksta ievades lauku un pogu
+- [x] Ievietot teksta logu, teksta ievades lauku un pogu
 - [ ] Ievietot divus tēlus ko apģerbt
 - [ ] Izveidot izkrītošā saraksta pogu
 - [ ] Ievietot ček boxus drēbju veidiem
