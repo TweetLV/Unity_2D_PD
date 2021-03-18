@@ -12,7 +12,8 @@ public class AtteluParadisana : MonoBehaviour
     public GameObject masina;
     public GameObject mainigaisAttels;
     public Sprite[] atteluMasivs;
-    public GameObject slaideris;
+    public GameObject slaiderisx;
+    public GameObject slaiderisy;
     public AudioSource skanasAvots;
     public AudioClip skanaKoAtskanot;
     public void binaAttelosana(bool vertiba)
@@ -53,13 +54,19 @@ public class AtteluParadisana : MonoBehaviour
 
     }
 
-    public void mainitLielumu()
+    public void mainitLielumuX()
     {
-        float pasreizejaVertiba = slaideris.GetComponent<Slider>().value;
-        mainigaisAttels.transform.localScale = new Vector2(1F * pasreizejaVertiba, 1F * pasreizejaVertiba);
-
+        float pasreizejaVertiba1 = slaiderisy.GetComponent<Slider>().value;
+        float pasreizejaVertiba = slaiderisx.GetComponent<Slider>().value;
+        mainigaisAttels.transform.localScale = new Vector2(1F * pasreizejaVertiba, 1F*pasreizejaVertiba1);
+   
     }
-
+    public void mainitLielumuY()
+    {
+        float pasreizejaVertiba = slaiderisx.GetComponent<Slider>().value;
+        float pasreizejaVertiba1 = slaiderisy.GetComponent<Slider>().value;
+        mainigaisAttels.transform.localScale = new Vector2(1F*pasreizejaVertiba , 1F * pasreizejaVertiba1);
+    }
     public void uzbiditUzAttela()
     {
         skanasAvots.PlayOneShot(skanaKoAtskanot);
