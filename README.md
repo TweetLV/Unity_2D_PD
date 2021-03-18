@@ -8,6 +8,6 @@ Pirmais Unity 2D projekts, pagūsim UI elementus.
 - [x] Ievietot ček boxus drēbju veidiem
 - [x] Nodrošināt attēla pārvietošanu ar peles palīdzību
 - [x] Pievienot audio failus
-- [ ] Ievietot scroll view komponente, kurā lasāms neliels apraksts par projektā iekļautajiem tēliem
+- [x] Ievietot scroll view komponente, kurā lasāms neliels apraksts par projektā iekļautajiem tēliem
 - [x] Nodrošināt attēla izmēra maiņu ar bīdjoslu
 
