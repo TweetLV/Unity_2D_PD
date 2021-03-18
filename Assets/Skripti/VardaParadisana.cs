@@ -23,7 +23,7 @@ public class VardaParadisana : MonoBehaviour
     {
         teksts = ievadesLauks.GetComponent<Text>().text;
         teksts1 = ievadesLauks1.GetComponent<Text>().text;
-        tekstaAttelosana.GetComponent<Text>().text = "Cilvēku sauc " + teksts + " un viņam ir "+teksts1+ " gadi!";
+        tekstaAttelosana.GetComponent<Text>().text = "Cilvēku sauc " + teksts + " un viņam/ai ir "+teksts1+ " gadi!";
         ;
     }
 

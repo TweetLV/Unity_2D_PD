@@ -6,39 +6,46 @@ using UnityEngine.UI;
 public class AtteluParadisana : MonoBehaviour
 {
     //Uzglabās mūsu bildes no ainas
-    public GameObject bins;
-    public GameObject lacitis;
-    public GameObject tante;
-    public GameObject masina;
+    public GameObject bikses2;
+    public GameObject krekls1;
+    public GameObject krekls2;
+    public GameObject bikses1;
+    public GameObject sKrekls2;
+    public GameObject sKrekls1;
+    public GameObject svarki;
     public GameObject mainigaisAttels;
     public Sprite[] atteluMasivs;
     public GameObject slaiderisx;
     public GameObject slaiderisy;
     public AudioSource skanasAvots;
     public AudioClip skanaKoAtskanot;
-    public void binaAttelosana(bool vertiba)
+    public void sKrekls2Attelosana(bool vertiba)
     {
-        bins.SetActive(vertiba);
+        sKrekls2.SetActive(vertiba);
     }
-    public void lacitisAttelosana(bool vertiba)
+    public void sKrekls1Attelosana(bool vertiba)
     {
-        lacitis.SetActive(vertiba);
+        sKrekls1.SetActive(vertiba);
     }
-    public void tanteAttelosana(bool vertiba)
+    public void svarkiAttelosana(bool vertiba)
     {
-        tante.SetActive(vertiba);
+        svarki.SetActive(vertiba);
     }
-    public void masinaAttelosana(bool vertiba)
+    public void bikses2Attelosana(bool vertiba)
     {
-        masina.SetActive(vertiba);
+        bikses2.SetActive(vertiba);
     }
-    public void paKreisiBins(bool vertiba)
+    public void krekls1Attelosana(bool vertiba)
     {
-        bins.transform.localScale = new Vector2(1, 1);
+        krekls1.SetActive(vertiba);
     }
-    public void paLabiBins(bool vertiba)
+    public void krekls2Attelosana(bool vertiba)
     {
-        bins.transform.localScale = new Vector2(-1, 1);
+        krekls2.SetActive(vertiba);
+    }
+    public void bikses1Attelosana(bool vertiba)
+    {
+        bikses1.SetActive(vertiba);
     }
 
     public void izkritosais(int skaitlis)

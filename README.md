@@ -5,7 +5,7 @@ Pirmais Unity 2D projekts, pagūsim UI elementus.
 - [x] Ievietot teksta logu, teksta ievades lauku un pogu
 - [x] Ievietot divus tēlus ko apģerbt
 - [x] Izveidot izkrītošā saraksta pogu
-- [ ] Ievietot ček boxus drēbju veidiem
+- [x] Ievietot ček boxus drēbju veidiem
 - [ ] Nodrošināt attēla pārvietošanu ar peles palīdzību
 - [ ] Pievienot audio failus
 - [ ] Ievietot scroll view komponente, kurā lasāms neliels apraksts par projektā iekļautajiem tēliem
